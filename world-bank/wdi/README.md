@@ -1,86 +1,159 @@
 # World Development Indicators (WDI)
 
-**World Development Indicators** est la base de données la plus utilisée et la plus généraliste de la Banque mondiale. Elle compile des indicateurs de développement pour la quasi-totalité des pays du monde.
+**World Development Indicators** is the most widely used and general-purpose database from the World Bank. It compiles development indicators for nearly every country in the world.
 
-## Chiffres clés
+## Key figures
 
 | | |
 |---|---|
-| Séries (indicateurs) | ~1510 |
-| Pays / régions | ~265 (dont agrégats régionaux et groupes de revenu) |
-| Période disponible | 1960 – 2025 (variable selon les séries) |
-| Lien DataBank | [databank.worldbank.org/source/world-development-indicators](https://databank.worldbank.org/source/world-development-indicators) |
+| Series (indicators) | ~1,510 |
+| Countries / regions | ~265 (including regional aggregates and income groups) |
+| Available period | 1960 – 2025 (varies by series) |
+| DataBank link | [databank.worldbank.org/source/world-development-indicators](https://databank.worldbank.org/source/world-development-indicators) |
 
-## Thématiques couvertes
+## Topics covered
 
-Les indicateurs sont organisés en grandes catégories : politique économique et dette, éducation, environnement, secteur financier, santé, infrastructure, travail et protection sociale, pauvreté, secteur privé et commerce, secteur public.
+Indicators are organized into broad categories: economic policy and debt, education, environment, financial sector, health, infrastructure, labor and social protection, poverty, private sector and trade, public sector.
 
-## Accès en R
+## Accessing WDI in R
 
-Le package [`WDI`](https://cran.r-project.org/package=WDI) (v2.7.10) permet d'interroger WDI par programmation.
+The [`WDI`](https://cran.r-project.org/package=WDI) package (v2.7.10) allows querying WDI programmatically.
 
-> ⚠️ Le package `wbstats`, autrefois recommandé pour le même usage, a été **archivé en août 2025**. Utiliser `WDI` à la place.
+> ⚠️ The `wbstats` package, previously recommended for the same purpose, was **archived in August 2025**. Use `WDI` instead.
 
 ```r
 library(WDI)
 
-# Chercher un indicateur par mot-clé
+# Search for an indicator by keyword
 WDIsearch("gdp per capita")
 
-# Télécharger un indicateur pour tous les pays, sur une période donnée
+# Download an indicator for all countries, over a given period
 data <- WDI(indicator = "NY.GDP.PCAP.KD", country = "all", start = 1960, end = 2025)
 ```
 
-**Contraintes de l'API à connaître :**
-- `start` doit être ≥ 1960
-- Les noms de variables R ne peuvent pas contenir de tiret (`data_wdi`, pas `data-wdi`)
-- Pas d'option `"all"` pour les indicateurs — il faut lister les codes explicitement
-- L'API est instable par moments (erreurs `400`, `502`, timeouts) — prévoir des tentatives par petits lots plutôt qu'une requête unique massive
+**API constraints to know:**
+- `start` must be ≥ 1960
+- R variable names cannot contain a hyphen (`data_wdi`, not `data-wdi`)
+- There is no `"all"` option for indicators — codes must be listed explicitly
+- The API is occasionally unstable (`400`, `502` errors, timeouts) — download in small batches rather than one massive request
 
-## Audit de complétude
+## Completeness audit
 
-Ce dossier contient un **audit exhaustif des valeurs manquantes** de WDI : pour chaque série et chaque pays, quelles années n'ont pas de donnée disponible.
+This folder contains an **exhaustive missing-values audit** of WDI: for each series and each country, which years have no available data.
 
-### Méthode
+### Method
 
-1. Téléchargement de l'intégralité des ~1510 séries, tous pays, 1960–2025, par lots de 20 séries (pour contourner l'instabilité de l'API)
-2. Passage des données au format long (une ligne = indicateur × pays × année)
-3. Calcul du statut manquant/présent pour chaque combinaison
-4. Regroupement des années manquantes en plages lisibles par couple (pays, série)
+1. Downloaded the entirety of the ~1,510 series, all countries, 1960–2025, in batches of 20 series (to work around API instability)
+2. Reshaped the data into long format (one row = indicator × country × year)
+3. Computed a missing/present status for every combination
+4. Grouped missing years into readable ranges per (country, series) pair
 
-Voir le script complet : [`audit_WDI_final.R`](./audit_WDI_final.R)
+See the full script: [`audit_WDI_final_en.R`](./audit_WDI_final_en.R)
 
-### Résultat
+### Output
 
-Le rapport [`rapport_missing_values_WDI.csv`](./rapport_missing_values_WDI.csv) contient une ligne par couple (pays, série) ayant au moins une année manquante, avec :
+The report [`missing_values_report_WDI.csv`](./missing_values_report_WDI.csv) contains one row per (country, series) pair with at least one missing year, with:
 
-| Colonne | Description |
+| Column | Description |
 |---|---|
-| `indicateur` | Code de la série WDI (ex: `NY.GDP.PCAP.KD`) |
-| `country` | Nom du pays ou de la région |
-| `iso3c` | Code ISO à 3 lettres |
-| `annees_manquantes` | Plages d'années sans donnée (ex: `1960-1962, 1970`) |
-| `nb_annees_manquantes` | Nombre total d'années manquantes |
+| `indicator` | WDI series code (e.g. `NY.GDP.PCAP.KD`) |
+| `country` | Country or region name |
+| `iso3c` | 3-letter ISO code |
+| `missing_years` | Ranges of years with no data (e.g. `1960-1962, 1970`) |
+| `nb_missing_years` | Total number of missing years |
 
-**Exemple d'utilisation** (dans R, Python ou Excel) :
+**Example usage** (in R, Python, or Excel):
 ```r
-rapport <- read.csv("rapport_missing_values_WDI.csv")
+rapport <- read.csv("missing_values_report_WDI.csv")
 
-# Tout ce qui manque pour un pays donné
-rapport %>% filter(country == "France")
+# Everything missing for a given country
+report %>% filter(country == "France")
 
-# Tous les pays manquants pour une série donnée
-rapport %>% filter(indicateur == "NY.GDP.PCAP.KD")
+# All countries missing for a given series
+report %>% filter(indicator == "NY.GDP.PCAP.KD")
 ```
 
-### Constats généraux
+### General findings
 
-- Sur ~1510 séries, environ 1397 ont au moins une valeur manquante quelque part (les autres sont donc complètes à 100%).
-- Les années **2024-2025** et **1960** concentrent une grande partie des manques, probablement pour des raisons structurelles (données les plus récentes pas encore collectées pour tous les pays ; 1960 comme année de démarrage incomplète pour beaucoup de séries) plutôt qu'un vrai problème de qualité des séries.
-- Certaines séries (ex: plusieurs indicateurs liés à l'aide publique au développement, `DT.ODA.*`) sont totalement vides pour de nombreux pays développés (normal : ces indicateurs ne s'appliquent qu'aux pays bénéficiaires).
+- Out of ~1,510 series, about 1,397 have at least one missing value somewhere (the rest are 100% complete).
+- The years **2024-2025** and **1960** account for a large share of the gaps, likely for structural reasons (most recent data not yet collected for every country; 1960 as an incomplete starting year for many series) rather than a genuine data quality issue.
+- Some series (e.g. several official development assistance indicators, `DT.ODA.*`) are entirely empty for many developed countries (expected: these indicators only apply to aid-recipient countries).
 
-## Fichiers de ce dossier
+## Completeness statistics
 
-- `README.md` — ce document
-- `audit_WDI_final.R` — script complet (téléchargement, traitement, export)
-- `rapport_missing_values_WDI.csv` — rapport final des valeurs manquantes
+> ⚠️ **Methodological note**: the rates below are calculated over the full 1960–2025 window. However, many WDI series only started being collected several decades after 1960 (recent environmental, governance, or financial indicators). A rate of 50% therefore does not mean that half of the *relevant* data is missing, but reflects this extended time window mechanically. For illustration, even Peru — one of the best-covered countries — has only 77 out of 1,397 series that are completely empty; most series have partial rather than zero coverage, concentrated in recent decades.
+
+### By series (top / bottom)
+
+**10 least complete series:**
+
+| Series | % completeness |
+|---|---|
+| IC.BRE.BE.OS, IC.BRE.BE.P1, IC.BRE.BE.P2, IC.BRE.BE.P3, IC.BRE.BI.OS, IC.BRE.BI.P1, IC.BRE.BI.P2, IC.BRE.BI.P3, IC.BRE.BL.OS, IC.BRE.BL.P1 | 0.3% |
+
+**10 most complete series:**
+
+| Series | % completeness |
+|---|---|
+| SP.POP.65UP.MA.ZS, SP.POP.65UP.TO.ZS, SP.POP.7074.FE.5Y, SP.POP.7074.MA.5Y, SP.POP.7579.FE.5Y, SP.POP.7579.MA.5Y, SP.POP.80UP.FE.5Y, SP.POP.80UP.MA.5Y, SP.POP.TOTL.FE.ZS, SP.RUR.TOTL.ZS | 99.6% |
+
+Full detail: [`completeness_stats_by_series.csv`](./completeness_stats_by_series.csv)
+
+### By country (top / bottom)
+
+**10 least complete countries/regions:**
+
+| Country | % completeness |
+|---|---|
+| Not classified | 0% |
+| St. Martin (French part) | 6.3% |
+| Channel Islands | 8.6% |
+| Isle of Man | 8.6% |
+| Sint Maarten (Dutch part) | 9% |
+| Northern Mariana Islands | 9.2% |
+| Gibraltar | 10.3% |
+| Curaçao | 10.7% |
+| American Samoa | 11% |
+| Liechtenstein | 11.3% |
+
+**10 most complete countries** (among large countries, the maximum completeness observed remains around 50% — see methodological note above):
+
+| Country | % completeness |
+|---|---|
+| Peru | 49.8% |
+| Mexico | 49.5% |
+| Colombia | 49.3% |
+| India | 48% |
+| Indonesia | 47.8% |
+| Ecuador | 47.7% |
+| Dominican Republic | 47.6% |
+| Brazil | 47.6% |
+| Egypt, Arab Rep. | 47.5% |
+| Thailand | 47.3% |
+
+Full detail: [`completeness_stats_by_country.csv`](./completeness_stats_by_country.csv)
+
+### By year
+
+Overall completeness improves over time (little data in the 1960s, more as data collection became widespread):
+
+| Year | % completeness |
+|---|---|
+| 1960 | 9.4% |
+| 1961 | 10.9% |
+| 1962 | 11.2% |
+| 1965 | 12.1% |
+| 1969 | 12.6% |
+| ... | ... |
+
+Full detail (66 years): [`completeness_stats_by_year.csv`](./completeness_stats_by_year.csv)
+
+## Files in this folder
+
+- `README.md` — this document
+- `audit_WDI_final_en.R` — full script (download, processing, export)
+- `missing_values_report_WDI.csv` — detailed missing-values report (country x series)
+- `completeness_stats_by_series.csv` — % completeness by series
+- `completeness_stats_by_country.csv` — % completeness by country
+- `completeness_stats_by_year.csv` — % completeness by year
+- `completeness_audit_WDI.pdf` — summary report (a few pages, key statistics)
