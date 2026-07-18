@@ -22,7 +22,7 @@ Among the 87 available databases, here are the most significant by number of ser
 | Database | Approx. number of series | Description |
 |---|---|---|
 | **World Development Indicators (WDI)** | ~1,510 | The most widely used and general-purpose database — GDP, population, education, health, environment, etc. See [wdi/](./wdi/) for details. |
-| **Education Statistics** | ~8,300 | Detailed education data by country. |
+| **Education Statistics** | ~8,300 | Detailed education data by country. See [education-statistics/](./education-statistics/) for details. |
 | **The Atlas of Social Protection** | ~3,560 | Indicators of resilience and equity. |
 | **Global Findex database** | ~2,950 | Financial inclusion (access to bank accounts, savings, credit). |
 | **International Debt Statistics** | ~530 | External debt of developing countries. |
@@ -35,6 +35,7 @@ Among the 87 available databases, here are the most significant by number of ser
 ## Subfolders in this section
 
 - [`wdi/`](./wdi/) — World Development Indicators: detailed presentation, the R package used, and a completeness audit (which data is missing, for which countries and years).
+- [`education-statistics/`](./education-statistics/) — Education Statistics: detailed presentation and completeness audit *(in progress)*.
 
 ## Usage notes
 
