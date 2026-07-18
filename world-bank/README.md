@@ -1,42 +1,42 @@
 # World Bank
 
-La Banque mondiale (World Bank Group) est l'une des principales sources de données économiques et de développement au monde. Ses données sont accessibles via plusieurs portails complémentaires, et regroupées en **87 bases de données** différentes sur sa plateforme DataBank.
+The World Bank Group is one of the leading sources of economic and development data in the world. Its data is accessible through several complementary portals, and grouped into **87 different databases** on its DataBank platform.
 
-## Portails d'accès
+## Access portals
 
-| Portail | Description | Lien |
+| Portal | Description | Link |
 |---|---|---|
-| **World Bank Open Data** | Portail public grand public, point d'entrée général avec visualisations. | [data.worldbank.org](https://data.worldbank.org/) |
-| **DataBank** | Outil d'exploration et d'analyse — liste les 87 bases de données disponibles, permet de construire des requêtes personnalisées, exporter en Excel/CSV. | [databank.worldbank.org](https://databank.worldbank.org/databases/page/1/orderby/popularity/direction/desc) |
-| **API Banque mondiale** | Accès programmatique aux mêmes données (utilisé par ce repo pour l'audit WDI, voir dossier `wdi/`). | [api.worldbank.org](https://api.worldbank.org/v2/) |
+| **World Bank Open Data** | Public-facing portal, general entry point with visualizations. | [data.worldbank.org](https://data.worldbank.org/) |
+| **DataBank** | Data exploration and analysis tool — lists the 87 available databases, allows building custom queries, exporting to Excel/CSV. | [databank.worldbank.org](https://databank.worldbank.org/databases/page/1/orderby/popularity/direction/desc) |
+| **World Bank API** | Programmatic access to the same data (used by this repo for the WDI audit, see the `wdi/` folder). | [api.worldbank.org](https://api.worldbank.org/v2/) |
 
-## Vocabulaire
+## Vocabulary
 
-- **Database** : un conteneur thématique (ex: World Development Indicators, Doing Business, Gender Statistics). La Banque mondiale en héberge 87.
-- **Series / Indicator** : une mesure précise à l'intérieur d'une base (ex: "PIB par habitant"). Chaque base contient de quelques séries à plusieurs milliers.
+- **Database**: a thematic container (e.g. World Development Indicators, Doing Business, Gender Statistics). The World Bank hosts 87 of them.
+- **Series / Indicator**: a specific measure within a database (e.g. "GDP per capita"). Each database contains anywhere from a few series to several thousand.
 
-## Bases de données notables
+## Notable databases
 
-Parmi les 87 bases disponibles, voici les plus importantes en nombre de séries :
+Among the 87 available databases, here are the most significant by number of series:
 
-| Base de données | Nb de séries (ordre de grandeur) | Description |
+| Database | Approx. number of series | Description |
 |---|---|---|
-| **World Development Indicators (WDI)** | ~1510 | La base la plus utilisée et la plus généraliste — PIB, population, éducation, santé, environnement, etc. Voir [wdi/](./wdi/) pour le détail. |
-| **Education Statistics** | ~8300 | Données détaillées sur l'éducation par pays. |
-| **The Atlas of Social Protection** | ~3560 | Indicateurs de résilience et d'équité sociale. |
-| **Global Findex database** | ~2950 | Inclusion financière (accès aux comptes bancaires, épargne, crédit). |
-| **International Debt Statistics** | ~530 | Dette extérieure des pays en développement. |
-| **Doing Business** | ~190 | Facilité de faire des affaires par pays (indicateurs réglementaires). |
-| **Gender Statistics** | ~930 | Données désagrégées par genre. |
-| **Worldwide Governance Indicators** | ~36 | Qualité de la gouvernance par pays. |
+| **World Development Indicators (WDI)** | ~1,510 | The most widely used and general-purpose database — GDP, population, education, health, environment, etc. See [wdi/](./wdi/) for details. |
+| **Education Statistics** | ~8,300 | Detailed education data by country. |
+| **The Atlas of Social Protection** | ~3,560 | Indicators of resilience and equity. |
+| **Global Findex database** | ~2,950 | Financial inclusion (access to bank accounts, savings, credit). |
+| **International Debt Statistics** | ~530 | External debt of developing countries. |
+| **Doing Business** | ~190 | Ease of doing business by country (regulatory indicators). |
+| **Gender Statistics** | ~930 | Data disaggregated by gender. |
+| **Worldwide Governance Indicators** | ~36 | Governance quality by country. |
 
-*Liste non exhaustive — voir le lien DataBank ci-dessus pour l'ensemble des 87 bases.*
+*Non-exhaustive list — see the DataBank link above for all 87 databases.*
 
-## Sous-dossiers de cette section
+## Subfolders in this section
 
-- [`wdi/`](./wdi/) — World Development Indicators : présentation détaillée, package R utilisé, et audit de complétude (quelles données manquent, pour quels pays et quelles années).
+- [`wdi/`](./wdi/) — World Development Indicators: detailed presentation, the R package used, and a completeness audit (which data is missing, for which countries and years).
 
-## Notes d'usage
+## Usage notes
 
-- Certaines données de la Banque mondiale ont des **restrictions de redistribution** — vérifier les conditions avant de repartager des extraits bruts.
-- Le package R `WDI` est recommandé pour interroger la base WDI par programmation (`wbstats`, une alternative, a été archivé en août 2025).
+- Some World Bank data has **redistribution restrictions** — check the terms before resharing raw extracts.
+- The R package `WDI` is recommended for querying the WDI database programmatically (`wbstats`, an alternative, was archived in August 2025).
