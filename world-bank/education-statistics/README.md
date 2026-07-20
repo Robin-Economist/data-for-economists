@@ -72,7 +72,9 @@ See the full script: [`audit_EdStats_final.R`](./audit_EdStats_final.R)
 
 ### Output
 
-The report [`missing_values_report_EdStats.csv`](./missing_values_report_EdStats.csv) contains one row per (country, series) pair with at least one missing year, with the same column structure as the WDI report.
+The report [`missing_values_report_EdStats.zip`](./missing_values_report_EdStats.zip) contains one row per (country, series) pair with at least one missing year, with the same column structure as the WDI report.
+
+> Note: this file is provided as a `.zip` archive (rather than a raw `.csv`) due to its size (~141 MB uncompressed) exceeding GitHub's 25 MB upload limit for standard file uploads. Unzip it locally before use.
 
 ### General findings
 
@@ -95,7 +97,7 @@ The report [`missing_values_report_EdStats.csv`](./missing_values_report_EdStats
 
 - `README.md` — this document
 - `audit_EdStats_final.R` — full script (download, processing, export)
-- `missing_values_report_EdStats.csv` — detailed missing-values report (country x series)
+- `missing_values_report_EdStats.zip` — detailed missing-values report (country x series), zipped due to file size
 - `completeness_stats_by_series_EdStats.csv` — % completeness by series
 - `completeness_stats_by_country_EdStats.csv` — % completeness by country
 - `completeness_stats_by_year_EdStats.csv` — % completeness by year
