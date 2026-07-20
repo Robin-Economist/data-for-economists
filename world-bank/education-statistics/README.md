@@ -96,6 +96,7 @@ The report [`missing_values_report_EdStats.zip`](./missing_values_report_EdStats
 ## Files in this folder
 
 - `README.md` — this document
+- `edstats_ready_to_use.R` — ready-to-use script to download custom country/indicator/year selections
 - `audit_EdStats_final.R` — full script (download, processing, export)
 - `missing_values_report_EdStats.zip` — detailed missing-values report (country x series), zipped due to file size
 - `completeness_stats_by_series_EdStats.csv` — % completeness by series
