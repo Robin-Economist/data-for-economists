@@ -1,0 +1,273 @@
+"country","iso3c","total_obs","missing_obs","completeness_rate"
+"Anguilla","",519486,519248,0
+"Channel Islands","CHI",519486,519480,0
+"Faroe Islands","FRO",519486,519426,0
+"Isle of Man","IMN",519486,519480,0
+"Lending category not classified","",519486,519480,0
+"Mayotte","",519486,519486,0
+"Northern Mariana Islands","MNP",519486,519480,0
+"St. Martin (French part)","MAF",519486,519486,0
+"Greenland","GRL",519486,519204,0.1
+"Guam","GUM",519486,518914,0.1
+"American Samoa","ASM",519486,518393,0.2
+"Curacao","CUW",519486,518518,0.2
+"Kosovo","XKX",519486,518643,0.2
+"Sint Maarten (Dutch part)","SXM",519486,518227,0.2
+"Virgin Islands (U.S.)","VIR",519486,518520,0.2
+"Tokelau","",519486,517313,0.4
+"French Polynesia","PYF",519486,517035,0.5
+"New Caledonia","NCL",519486,517053,0.5
+"Niue","",519486,516740,0.5
+"Monaco","MCO",519486,516257,0.6
+"South Sudan","SSD",519486,516528,0.6
+"Cook Islands","",519486,515595,0.7
+"Montserrat","",519486,515277,0.8
+"Tuvalu","TUV",519486,515458,0.8
+"Gibraltar","GIB",519486,514965,0.9
+"Nauru","NRU",519486,515013,0.9
+"Palau","PLW",519486,514655,0.9
+"Netherlands Antilles","",519486,514388,1
+"Turks and Caicos Islands","TCA",519486,514437,1
+"Marshall Islands","MHL",519486,513802,1.1
+"Puerto Rico","PRI",519486,513626,1.1
+"San Marino","SMR",519486,513596,1.1
+"Antigua and Barbuda","ATG",519486,513144,1.2
+"Bermuda","BMU",519486,513275,1.2
+"Andorra","AND",519486,512057,1.4
+"British Virgin Islands","VGB",519486,512465,1.4
+"IDA & IBRD total","IBT",519486,511986,1.4
+"IDA total","IDA",519486,512326,1.4
+"North America","NAC",519486,512106,1.4
+"Cayman Islands","CYM",519486,511689,1.5
+"Europe & Central Asia (excluding high income)","ECA",519486,511565,1.5
+"IDA blend","IDB",519486,511535,1.5
+"Kiribati","KIR",519486,511692,1.5
+"Korea, Dem. People's Rep.","PRK",519486,511920,1.5
+"Liechtenstein","LIE",519486,511949,1.5
+"Micronesia, Fed. Sts.","FSM",519486,511920,1.5
+"Pacific island small states","PSS",519486,511800,1.5
+"Europe & Central Asia (IDA & IBRD countries)","TEC",519486,511334,1.6
+"Fragile and conflict affected situations","",519486,510959,1.6
+"High income","",519486,511068,1.6
+"Low income","",519486,511028,1.6
+"Post-demographic dividend","PST",519486,511238,1.6
+"Pre-demographic dividend","PRE",519486,510939,1.6
+"Caribbean small states","CSS",519486,510448,1.7
+"East Asia & Pacific","EAS",519486,510657,1.7
+"East Asia & Pacific (IDA & IBRD countries)","TEA",519486,510805,1.7
+"East Asia & Pacific (excluding high income)","EAP",519486,510770,1.7
+"Euro area","EMU",519486,510851,1.7
+"Europe & Central Asia","ECS",519486,510746,1.7
+"European Union","EUU",519486,510836,1.7
+"Heavily indebted poor countries (HIPC)","HPC",519486,510434,1.7
+"Late-demographic dividend","LTE",519486,510752,1.7
+"Lower middle income","",519486,510443,1.7
+"OECD members","OED",519486,510849,1.7
+"Somalia","SOM",519486,510528,1.7
+"South Asia","SAS",519486,510509,1.7
+"South Asia (IDA & IBRD)","TSA",519486,510581,1.7
+"Sub-Saharan Africa","SSF",519486,510791,1.7
+"Sub-Saharan Africa (IDA & IBRD countries)","TSS",519486,510817,1.7
+"Sub-Saharan Africa (excluding high income)","SSA",519486,510798,1.7
+"Upper middle income","",519486,510532,1.7
+"Central Europe and the Baltics","CEB",519486,510374,1.8
+"Dominica","DMA",519486,510322,1.8
+"Early-demographic dividend","EAR",519486,510217,1.8
+"Global Partnership for Education","",519486,510305,1.8
+"IBRD only","IBD",519486,510258,1.8
+"IDA only","IDX",519486,509960,1.8
+"Least developed countries: UN classification","LDC",519486,510018,1.8
+"Low & middle income","LMY",519486,510165,1.8
+"Middle income","MIC",519486,510187,1.8
+"Other small states","OSS",519486,510109,1.8
+"Small states","SST",519486,510109,1.8
+"Turkmenistan","TKM",519486,510007,1.8
+"Angola","AGO",519486,509528,1.9
+"Arab World","ARB",519486,509788,1.9
+"Equatorial Guinea","GNQ",519486,509818,1.9
+"Latin America & Caribbean","LCN",519486,509731,1.9
+"Latin America & Caribbean (excluding high income)","LAC",519486,509713,1.9
+"Latin America & the Caribbean (IDA & IBRD countries)","TLA",519486,509874,1.9
+"Middle East & North Africa","MEA",519486,509602,1.9
+"Middle East & North Africa (IDA & IBRD countries)","TMN",519486,509735,1.9
+"Middle East & North Africa (excluding high income)","MNA",519486,509717,1.9
+"Montenegro","MNE",519486,509577,1.9
+"Solomon Islands","SLB",519486,509767,1.9
+"St. Kitts and Nevis","KNA",519486,509857,1.9
+"World","WLD",519486,509251,2
+"Bosnia and Herzegovina","BIH",519486,507969,2.2
+"Grenada","GRD",519486,507931,2.2
+"Guinea-Bissau","GNB",519486,508228,2.2
+"Lebanon","LBN",519486,507475,2.3
+"Seychelles","SYC",519486,507745,2.3
+"Vanuatu","VUT",519486,507283,2.3
+"Aruba","ABW",519486,506878,2.4
+"Bahamas, The","BHS",519486,507189,2.4
+"Comoros","COM",519486,507144,2.4
+"Libya","LBY",519486,506891,2.4
+"Timor-Leste","TLS",519486,507211,2.4
+"Eritrea","ERI",519486,506264,2.5
+"Samoa","WSM",519486,506622,2.5
+"St. Vincent and the Grenadines","VCT",519486,506614,2.5
+"Papua New Guinea","PNG",519486,506158,2.6
+"Uzbekistan","UZB",519486,505984,2.6
+"Djibouti","DJI",519486,505712,2.7
+"Sudan","SDN",519486,505582,2.7
+"Fiji","FJI",519486,504755,2.8
+"Sao Tome and Principe","STP",519486,505154,2.8
+"Bhutan","BTN",519486,504383,2.9
+"Tonga","TON",519486,504560,2.9
+"Yemen, Rep.","YEM",519486,504464,2.9
+"Cabo Verde","CPV",519486,504082,3
+"Gabon","GAB",519486,503970,3
+"North Macedonia","MKD",519486,503805,3
+"Suriname","SUR",519486,504159,3
+"Georgia","GEO",519486,503520,3.1
+"Liberia","LBR",519486,503151,3.1
+"St. Lucia","LCA",519486,503180,3.1
+"Afghanistan","AFG",519486,502713,3.2
+"Belarus","BLR",519486,502920,3.2
+"Chad","TCD",519486,502758,3.2
+"Haiti","HTI",519486,502820,3.2
+"Serbia","SRB",519486,502827,3.2
+"Trinidad and Tobago","TTO",519486,503106,3.2
+"Barbados","BRB",519486,502380,3.3
+"China","CHN",519486,502149,3.3
+"Myanmar","MMR",519486,502132,3.3
+"Oman","OMN",519486,502460,3.3
+"Saudi Arabia","SAU",519486,502251,3.3
+"Singapore","SGP",519486,502210,3.3
+"Botswana","BWA",519486,501682,3.4
+"Iraq","IRQ",519486,501652,3.4
+"Madagascar","MDG",519486,501937,3.4
+"Azerbaijan","AZE",519486,501097,3.5
+"Canada","CAN",519486,501074,3.5
+"Central African Republic","CAF",519486,501406,3.5
+"Nigeria","NGA",519486,501232,3.5
+"Sri Lanka","LKA",519486,501397,3.5
+"West Bank and Gaza","PSE",519486,501115,3.5
+"Congo, Dem. Rep.","COD",519486,500702,3.6
+"Guinea","GIN",519486,500595,3.6
+"Japan","JPN",519486,500891,3.6
+"Maldives","MDV",519486,500980,3.6
+"Brunei Darussalam","BRN",519486,500370,3.7
+"Ethiopia","ETH",519486,500457,3.7
+"Namibia","NAM",519486,500168,3.7
+"Russian Federation","RUS",519486,500277,3.7
+"Sierra Leone","SLE",519486,500492,3.7
+"Viet Nam","VNM",519486,500370,3.7
+"Zimbabwe","ZWE",519486,500277,3.7
+"Croatia","HRV",519486,499602,3.8
+"India","IND",519486,499600,3.8
+"Jamaica","JAM",519486,499520,3.8
+"Mauritania","MRT",519486,499625,3.8
+"Nicaragua","NIC",519486,499717,3.8
+"United Arab Emirates","ARE",519486,499976,3.8
+"United States","USA",519486,499891,3.8
+"Algeria","DZA",519486,499181,3.9
+"Belize","BLZ",519486,499391,3.9
+"Congo, Rep.","COG",519486,499246,3.9
+"Guyana","GUY",519486,499465,3.9
+"South Africa","ZAF",519486,499131,3.9
+"Tajikistan","TJK",519486,499467,3.9
+"Uganda","UGA",519486,499187,3.9
+"Australia","AUS",519486,498854,4
+"Kenya","KEN",519486,498739,4
+"Macao SAR, China","MAC",519486,498923,4
+"Mauritius","MUS",519486,498484,4
+"New Zealand","NZL",519486,498470,4
+"Ukraine","UKR",519486,498718,4
+"Zambia","ZMB",519486,498759,4
+"Albania","ALB",519486,497954,4.1
+"Armenia","ARM",519486,498396,4.1
+"Luxembourg","LUX",519486,498014,4.1
+"Malaysia","MYS",519486,498014,4.1
+"Nepal","NPL",519486,498308,4.1
+"Tanzania","TZA",519486,497968,4.1
+"Venezuela, RB","VEN",519486,498171,4.1
+"Burkina Faso","BFA",519486,497683,4.2
+"Cambodia","KHM",519486,497681,4.2
+"Estonia","EST",519486,497868,4.2
+"Gambia, The","GMB",519486,497412,4.2
+"Germany","DEU",519486,497632,4.2
+"Iran, Islamic Rep.","IRN",519486,497825,4.2
+"Kuwait","KWT",519486,497473,4.2
+"Mongolia","MNG",519486,497559,4.2
+"Pakistan","PAK",519486,497901,4.2
+"Syrian Arab Republic","SYR",519486,497755,4.2
+"Thailand","THA",519486,497580,4.2
+"Bahrain","BHR",519486,497375,4.3
+"Belgium","BEL",519486,496992,4.3
+"Cuba","CUB",519486,497220,4.3
+"Egypt, Arab Rep.","EGY",519486,496950,4.3
+"France","FRA",519486,497210,4.3
+"Hong Kong SAR, China","HKG",519486,496960,4.3
+"Iceland","ISL",519486,497342,4.3
+"Israel","ISR",519486,497220,4.3
+"Mozambique","MOZ",519486,497282,4.3
+"Philippines","PHL",519486,497247,4.3
+"Rwanda","RWA",519486,497101,4.3
+"United Kingdom","GBR",519486,497217,4.3
+"Guatemala","GTM",519486,496678,4.4
+"Kazakhstan","KAZ",519486,496795,4.4
+"Kyrgyz Republic","KGZ",519486,496883,4.4
+"Latvia","LVA",519486,496664,4.4
+"Malawi","MWI",519486,496773,4.4
+"Austria","AUT",519486,495908,4.5
+"Burundi","BDI",519486,496159,4.5
+"Cote d'Ivoire","CIV",519486,496052,4.5
+"Eswatini","SWZ",519486,496255,4.5
+"Lithuania","LTU",519486,496221,4.5
+"Mali","MLI",519486,496268,4.5
+"Moldova","MDA",519486,496127,4.5
+"Poland","POL",519486,495901,4.5
+"Romania","ROU",519486,496131,4.5
+"Slovak Republic","SVK",519486,496103,4.5
+"Slovenia","SVN",519486,496249,4.5
+"Switzerland","CHE",519486,496238,4.5
+"Togo","TGO",519486,496108,4.5
+"Tunisia","TUN",519486,496080,4.5
+"Bangladesh","BGD",519486,495397,4.6
+"Benin","BEN",519486,495566,4.6
+"Cameroon","CMR",519486,495343,4.6
+"Ghana","GHA",519486,495552,4.6
+"Greece","GRC",519486,495426,4.6
+"Ireland","IRL",519486,495472,4.6
+"Netherlands","NLD",519486,495628,4.6
+"Portugal","PRT",519486,495586,4.6
+"Czechia","CZE",519486,495290,4.7
+"Korea, Rep.","KOR",519486,494857,4.7
+"Lao PDR","LAO",519486,494891,4.7
+"Malta","MLT",519486,495004,4.7
+"Niger","NER",519486,494875,4.7
+"Qatar","QAT",519486,494976,4.7
+"Senegal","SEN",519486,495019,4.7
+"Bulgaria","BGR",519486,494641,4.8
+"Denmark","DNK",519486,494773,4.8
+"Finland","FIN",519486,494291,4.8
+"Lesotho","LSO",519486,494399,4.8
+"Morocco","MAR",519486,494732,4.8
+"Cyprus","CYP",519486,494070,4.9
+"Honduras","HND",519486,494042,4.9
+"Indonesia","IDN",519486,493791,4.9
+"Jordan","JOR",519486,494245,4.9
+"Norway","NOR",519486,494285,4.9
+"Turkiye","TUR",519486,493926,4.9
+"Argentina","ARG",519486,493311,5
+"Hungary","HUN",519486,493266,5
+"Spain","ESP",519486,493716,5
+"Sweden","SWE",519486,493695,5
+"Italy","ITA",519486,493158,5.1
+"Chile","CHL",519486,492103,5.3
+"Bolivia","BOL",519486,490616,5.6
+"Brazil","BRA",519486,490604,5.6
+"Uruguay","URY",519486,489852,5.7
+"Panama","PAN",519486,488617,5.9
+"Paraguay","PRY",519486,488641,5.9
+"Ecuador","ECU",519486,487806,6.1
+"El Salvador","SLV",519486,487599,6.1
+"Mexico","MEX",519486,487733,6.1
+"Dominican Republic","DOM",519486,486463,6.4
+"Colombia","COL",519486,484949,6.6
+"Costa Rica","CRI",519486,484592,6.7
+"Peru","PER",519486,484486,6.7
