@@ -35,7 +35,26 @@ data <- WDI(indicator = "IC.REG.MIN.CAP", country = c("FRA", "USA", "IND"),
             start = 2003, end = 2019)
 ```
 
-## Completeness audit
+## Indicator categories
+
+Doing Business indicators map closely onto the program's official regulatory themes. Categories below were built from code prefixes (e.g. `IC.REG.*` for business registration, `PAY.TAX.*` for tax indicators) — this covers **100%** of the 190 indicators, with no uncategorized remainder.
+
+| Category | Indicators | % of total |
+|---|---|---|
+| **Trading Across Borders** | 31 | 16.3% |
+| **Starting a Business** | 30 | 15.8% |
+| **Enforcing Contracts** | 21 | 11.1% |
+| **Paying Taxes** | 21 | 11.1% |
+| **Getting Electricity** | 20 | 10.5% |
+| **Protecting Minority Investors** | 19 | 10.0% |
+| **Construction Permits** | 17 | 8.9% |
+| **Getting Credit** | 15 | 7.9% |
+| **Resolving Insolvency** | 13 | 6.8% |
+| **General / Composite Business Indicators** | 3 | 1.6% |
+
+Full indicator-to-category mapping: see [`doing_business_categories.csv`](./doing_business_categories.csv)
+
+
 
 This folder contains an **exhaustive missing-values audit** of Doing Business: for each series and each country, which years have no available data.
 
@@ -69,8 +88,10 @@ Doing Business is **better covered than Education Statistics**, likely because i
 ## Files in this folder
 
 - `README.md` — this document
+- `doingbusiness_ready_to_use.R` — ready-to-use script to download custom country/indicator/year selections
 - `audit_DoingBusiness.R` — full script (download, processing, export)
 - `missing_values_report_DoingBusiness.csv` — detailed missing-values report (country x series)
 - `completeness_stats_by_series_DoingBusiness.csv` — % completeness by series
 - `completeness_stats_by_country_DoingBusiness.csv` — % completeness by country
 - `completeness_stats_by_year_DoingBusiness.csv` — % completeness by year
+- `doing_business_categories.csv` — indicator-to-category mapping
