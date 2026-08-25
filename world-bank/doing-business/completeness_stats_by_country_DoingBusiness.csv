@@ -1,0 +1,214 @@
+"country","iso3c","total_obs","missing_obs","completeness_rate"
+"Liechtenstein","LIE",3179,2889,9.1
+"Somalia","SOM",3179,2438,23.3
+"Libya","LBY",3179,2144,32.6
+"Chittagong","BGD",3179,2083,34.5
+"Kano","NGA",3179,2079,34.6
+"Los Angeles","USA",3179,2080,34.6
+"Nigeria","NGA",3179,2080,34.6
+"Beijing","CHN",3179,2075,34.7
+"Delhi","IND",3179,2075,34.7
+"Lahore","PAK",3179,2075,34.7
+"Rio de Janeiro","BRA",3179,2075,34.7
+"South Sudan","SSD",3179,2076,34.7
+"Bangladesh","BGD",3179,2073,34.8
+"United States","USA",3179,2070,34.9
+"Brazil","BRA",3179,2065,35
+"China","CHN",3179,2065,35
+"India","IND",3179,2065,35
+"Monterrey","MEX",3179,2065,35
+"Osaka","JPN",3179,2065,35
+"Pakistan","PAK",3179,2065,35
+"St. Petersburg","RUS",3179,2065,35
+"Surabaya","IDN",3179,2065,35
+"Indonesia","IDN",3179,2055,35.4
+"Japan","JPN",3179,2055,35.4
+"Mexico","MEX",3179,2055,35.4
+"Russian Federation","RUS",3179,2055,35.4
+"Myanmar","MMR",3179,1996,37.2
+"San Marino","SMR",3179,1989,37.4
+"Barbados","BRB",3179,1893,40.5
+"Malta","MLT",3179,1893,40.5
+"Kosovo","XKX",3179,1743,45.2
+"Eritrea","ERI",3179,1685,47
+"Cyprus","CYP",3179,1674,47.3
+"Bahamas, The","BHS",3179,1642,48.3
+"Bahrain","BHR",3179,1645,48.3
+"Qatar","QAT",3179,1645,48.3
+"Timor-Leste","TLS",3179,1581,50.3
+"Liberia","LBR",3179,1562,50.9
+"Yemen, Rep.","YEM",3179,1560,50.9
+"Brunei Darussalam","BRN",3179,1551,51.2
+"Montenegro","MNE",3179,1545,51.4
+"Micronesia, Fed. Sts.","FSM",3179,1540,51.6
+"Comoros","COM",3179,1534,51.7
+"Equatorial Guinea","GNQ",3179,1534,51.7
+"Luxembourg","LUX",3179,1536,51.7
+"Marshall Islands","MHL",3179,1530,51.9
+"Guinea-Bissau","GNB",3179,1526,52
+"St. Kitts and Nevis","KNA",3179,1522,52.1
+"St. Vincent and the Grenadines","VCT",3179,1522,52.1
+"Grenada","GRD",3179,1513,52.4
+"Cabo Verde","CPV",3179,1502,52.8
+"Syrian Arab Republic","SYR",3179,1500,52.8
+"Djibouti","DJI",3179,1495,53
+"Gambia, The","GMB",3179,1495,53
+"São Tomé and Principe","STP",3179,1494,53
+"Iraq","IRQ",3179,1489,53.2
+"Suriname","SUR",3179,1489,53.2
+"Tajikistan","TJK",3179,1489,53.2
+"Congo, Dem. Rep.","COD",3179,1478,53.5
+"Gabon","GAB",3179,1479,53.5
+"Eswatini","SWZ",3179,1471,53.7
+"Angola","AGO",3179,1468,53.8
+"Haiti","HTI",3179,1469,53.8
+"Afghanistan","AFG",3179,1466,53.9
+"Antigua and Barbuda","ATG",3179,1467,53.9
+"Belize","BLZ",3179,1467,53.9
+"Dominica","DMA",3179,1467,53.9
+"Kiribati","KIR",3179,1466,53.9
+"Mauritania","MRT",3179,1467,53.9
+"Saudi Arabia","SAU",3179,1464,53.9
+"Seychelles","SYC",3179,1467,53.9
+"St. Lucia","LCA",3179,1467,53.9
+"Trinidad and Tobago","TTO",3179,1467,53.9
+"Bhutan","BTN",3179,1463,54
+"Lao PDR","LAO",3179,1458,54.1
+"West Bank and Gaza","PSE",3179,1460,54.1
+"Kuwait","KWT",3179,1444,54.6
+"Palau","PLW",3179,1444,54.6
+"Lagos","NGA",3179,1439,54.7
+"Maldives","MDV",3179,1441,54.7
+"Sudan","SDN",3179,1440,54.7
+"United Arab Emirates","ARE",3179,1440,54.7
+"Venezuela, RB","VEN",3179,1440,54.7
+"Burundi","BDI",3179,1434,54.9
+"Sierra Leone","SLE",3179,1434,54.9
+"Benin","BEN",3179,1432,55
+"Burkina Faso","BFA",3179,1432,55
+"Cameroon","CMR",3179,1429,55
+"Central African Republic","CAF",3179,1432,55
+"Chad","TCD",3179,1432,55
+"Congo, Rep.","COG",3179,1432,55
+"Dhaka","BGD",3179,1432,55
+"Guinea","GIN",3179,1432,55
+"Madagascar","MDG",3179,1432,55
+"New York","USA",3179,1429,55
+"Albania","ALB",3179,1426,55.1
+"Guyana","GUY",3179,1428,55.1
+"Iceland","ISL",3179,1428,55.1
+"Kyrgyz Republic","KGZ",3179,1428,55.1
+"Mauritius","MUS",3179,1428,55.1
+"Ghana","GHA",3179,1423,55.2
+"Karachi","PAK",3179,1424,55.2
+"Mumbai","IND",3179,1424,55.2
+"Sao Paulo","BRA",3179,1424,55.2
+"Shanghai","CHN",3179,1424,55.2
+"Vanuatu","VUT",3179,1424,55.2
+"Botswana","BWA",3179,1422,55.3
+"Ethiopia","ETH",3179,1422,55.3
+"Lebanon","LBN",3179,1422,55.3
+"Lesotho","LSO",3179,1422,55.3
+"Malawi","MWI",3179,1422,55.3
+"Mali","MLI",3179,1422,55.3
+"Nepal","NPL",3179,1422,55.3
+"Oman","OMN",3179,1421,55.3
+"Togo","TGO",3179,1422,55.3
+"Hong Kong, China","HKG",3179,1419,55.4
+"Kenya","KEN",3179,1419,55.4
+"Morocco","MAR",3179,1419,55.4
+"Puerto Rico","PRI",3179,1419,55.4
+"Solomon Islands","SLB",3179,1419,55.4
+"Algeria","DZA",3179,1414,55.5
+"Argentina","ARG",3179,1414,55.5
+"Belarus","BLR",3179,1414,55.5
+"Bolivia","BOL",3179,1414,55.5
+"Colombia","COL",3179,1414,55.5
+"Dominican Republic","DOM",3179,1414,55.5
+"Ecuador","ECU",3179,1414,55.5
+"El Salvador","SLV",3179,1414,55.5
+"Guatemala","GTM",3179,1414,55.5
+"Jakarta","IDN",3179,1414,55.5
+"Kazakhstan","KAZ",3179,1414,55.5
+"Mexico City","MEX",3179,1414,55.5
+"Moscow","RUS",3179,1414,55.5
+"Mozambique","MOZ",3179,1416,55.5
+"Niger","NER",3179,1416,55.5
+"Panama","PAN",3179,1414,55.5
+"Paraguay","PRY",3179,1414,55.5
+"Peru","PER",3179,1414,55.5
+"Philippines","PHL",3179,1414,55.5
+"Sri Lanka","LKA",3179,1414,55.5
+"Tokyo","JPN",3179,1414,55.5
+"Turkey","TUR",3179,1415,55.5
+"Uruguay","URY",3179,1414,55.5
+"Uzbekistan","UZB",3179,1414,55.5
+"Armenia","ARM",3179,1412,55.6
+"Egypt, Arab Rep.","EGY",3179,1413,55.6
+"Honduras","HND",3179,1412,55.6
+"Malaysia","MYS",3179,1413,55.6
+"Mongolia","MNG",3179,1410,55.6
+"Rwanda","RWA",3179,1412,55.6
+"Senegal","SEN",3179,1413,55.6
+"South Africa","ZAF",3179,1411,55.6
+"Vietnam","VNM",3179,1410,55.6
+"Zimbabwe","ZWE",3179,1408,55.7
+"Australia","AUS",3179,1404,55.8
+"Austria","AUT",3179,1404,55.8
+"Azerbaijan","AZE",3179,1404,55.8
+"Belgium","BEL",3179,1404,55.8
+"Bosnia and Herzegovina","BIH",3179,1404,55.8
+"Bulgaria","BGR",3179,1404,55.8
+"Cambodia","KHM",3179,1404,55.8
+"Canada","CAN",3179,1404,55.8
+"Chile","CHL",3179,1404,55.8
+"Costa Rica","CRI",3179,1404,55.8
+"Croatia","HRV",3179,1404,55.8
+"Czech Republic","CZE",3179,1404,55.8
+"Côte d'Ivoire","CIV",3179,1404,55.8
+"Denmark","DNK",3179,1404,55.8
+"Estonia","EST",3179,1404,55.8
+"Fiji","FJI",3179,1404,55.8
+"Finland","FIN",3179,1404,55.8
+"France","FRA",3179,1404,55.8
+"Georgia","GEO",3179,1404,55.8
+"Germany","DEU",3179,1404,55.8
+"Greece","GRC",3179,1404,55.8
+"Hungary","HUN",3179,1404,55.8
+"Iran, Islamic Rep.","IRN",3179,1404,55.8
+"Ireland","IRL",3179,1404,55.8
+"Israel","ISR",3179,1404,55.8
+"Italy","ITA",3179,1404,55.8
+"Jamaica","JAM",3179,1404,55.8
+"Jordan","JOR",3179,1404,55.8
+"Korea, Rep.","KOR",3179,1404,55.8
+"Latvia","LVA",3179,1404,55.8
+"Lithuania","LTU",3179,1404,55.8
+"Moldova","MDA",3179,1404,55.8
+"Namibia","NAM",3179,1404,55.8
+"Netherlands","NLD",3179,1404,55.8
+"New Zealand","NZL",3179,1404,55.8
+"Nicaragua","NIC",3179,1404,55.8
+"North Macedonia","MKD",3179,1404,55.8
+"Norway","NOR",3179,1404,55.8
+"Papua New Guinea","PNG",3179,1404,55.8
+"Poland","POL",3179,1404,55.8
+"Portugal","PRT",3179,1404,55.8
+"Romania","ROU",3179,1404,55.8
+"Samoa","WSM",3179,1404,55.8
+"Serbia","SRB",3179,1404,55.8
+"Singapore","SGP",3179,1404,55.8
+"Slovak Republic","SVK",3179,1404,55.8
+"Slovenia","SVN",3179,1404,55.8
+"Spain","ESP",3179,1404,55.8
+"Sweden","SWE",3179,1404,55.8
+"Switzerland","CHE",3179,1404,55.8
+"Taiwan, China","",3179,1404,55.8
+"Tanzania","TZA",3179,1404,55.8
+"Thailand","THA",3179,1404,55.8
+"Tonga","TON",3179,1404,55.8
+"Tunisia","TUN",3179,1404,55.8
+"Uganda","UGA",3179,1404,55.8
+"Ukraine","UKR",3179,1404,55.8
+"United Kingdom","GBR",3179,1404,55.8
+"Zambia","ZMB",3179,1404,55.8
