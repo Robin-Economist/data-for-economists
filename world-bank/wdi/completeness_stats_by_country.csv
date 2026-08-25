@@ -1,0 +1,266 @@
+"country","iso3c","total_obs","missing_obs","completeness_rate"
+"Not classified","",92202,92202,0
+"St. Martin (French part)","MAF",92202,86416,6.3
+"Channel Islands","CHI",92202,84239,8.6
+"Isle of Man","IMN",92202,84287,8.6
+"Sint Maarten (Dutch part)","SXM",92202,83898,9
+"Northern Mariana Islands","MNP",92202,83691,9.2
+"Gibraltar","GIB",92202,82707,10.3
+"Curacao","CUW",92202,82324,10.7
+"American Samoa","ASM",92202,82026,11
+"Liechtenstein","LIE",92202,81762,11.3
+"Monaco","MCO",92202,81329,11.8
+"British Virgin Islands","VGB",92202,81110,12
+"Virgin Islands (U.S.)","VIR",92202,80646,12.5
+"Guam","GUM",92202,80524,12.7
+"Turks and Caicos Islands","TCA",92202,79935,13.3
+"Faroe Islands","FRO",92202,79676,13.6
+"Cayman Islands","CYM",92202,79421,13.9
+"Greenland","GRL",92202,78624,14.7
+"Andorra","AND",92202,78338,15
+"South Sudan","SSD",92202,78055,15.3
+"San Marino","SMR",92202,77806,15.6
+"Kosovo","XKX",92202,77749,15.7
+"Nauru","NRU",92202,77108,16.4
+"Korea, Dem. People's Rep.","PRK",92202,75894,17.7
+"French Polynesia","PYF",92202,75681,17.9
+"Tuvalu","TUV",92202,75700,17.9
+"Bermuda","BMU",92202,75466,18.2
+"New Caledonia","NCL",92202,75164,18.5
+"Micronesia, Fed. Sts.","FSM",92202,74770,18.9
+"Aruba","ABW",92202,74307,19.4
+"Palau","PLW",92202,74021,19.7
+"Marshall Islands","MHL",92202,73417,20.4
+"Puerto Rico (US)","PRI",92202,71790,22.1
+"Turkmenistan","TKM",92202,71520,22.4
+"Eritrea","ERI",92202,70009,24.1
+"Montenegro","MNE",92202,69709,24.4
+"Antigua and Barbuda","ATG",92202,68919,25.3
+"Equatorial Guinea","GNQ",92202,68354,25.9
+"St. Kitts and Nevis","KNA",92202,67742,26.5
+"Pacific island small states","PSS",92202,67635,26.6
+"Kiribati","KIR",92202,67480,26.8
+"Timor-Leste","TLS",92202,67444,26.9
+"Macao SAR, China","MAC",92202,66654,27.7
+"West Bank and Gaza","PSE",92202,66571,27.8
+"Central Europe and the Baltics","CEB",92202,66309,28.1
+"Caribbean small states","CSS",92202,66242,28.2
+"Grenada","GRD",92202,66044,28.4
+"Pre-demographic dividend","PRE",92202,66049,28.4
+"Somalia, Fed. Rep.","SOM",92202,65883,28.5
+"Dominica","DMA",92202,65828,28.6
+"Djibouti","DJI",92202,65706,28.7
+"Africa Western and Central","AFW",92202,65564,28.9
+"Afghanistan","AFG",92202,65095,29.4
+"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)","TMN",92202,65075,29.4
+"Sao Tome and Principe","STP",92202,65003,29.5
+"Small states","SST",92202,64960,29.5
+"Europe & Central Asia (IDA & IBRD countries)","TEC",92202,64911,29.6
+"Liberia","LBR",92202,64921,29.6
+"Other small states","OSS",92202,64921,29.6
+"IDA blend","IDB",92202,64836,29.7
+"Yemen, Rep.","YEM",92202,64430,30.1
+"Arab World","ARB",92202,64391,30.2
+"Least developed countries: UN classification","LDC",92202,64158,30.4
+"Serbia","SRB",92202,64109,30.5
+"United Arab Emirates","ARE",92202,64073,30.5
+"Uzbekistan","UZB",92202,64034,30.6
+"Suriname","SUR",92202,63767,30.8
+"Africa Eastern and Southern","AFE",92202,63697,30.9
+"Libya","LBY",92202,63701,30.9
+"Bosnia and Herzegovina","BIH",92202,63651,31
+"Heavily indebted poor countries (HIPC)","HPC",92202,63549,31.1
+"Late-demographic dividend","LTE",92202,63514,31.1
+"East Asia & Pacific (IDA & IBRD countries)","TEA",92202,63480,31.2
+"Tajikistan","TJK",92202,63329,31.3
+"Europe & Central Asia (excluding high income)","ECA",92202,63278,31.4
+"IDA total","IDA",92202,63026,31.6
+"Samoa","WSM",92202,62997,31.7
+"Sub-Saharan Africa (IDA & IBRD countries)","TSS",92202,63009,31.7
+"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)","MNA",92202,62850,31.8
+"St. Vincent and the Grenadines","VCT",92202,62874,31.8
+"IDA & IBRD total","IBT",92202,62734,32
+"East Asia & Pacific","EAS",92202,62570,32.1
+"Low income","",92202,62613,32.1
+"St. Lucia","LCA",92202,62536,32.2
+"IBRD only","IBD",92202,62450,32.3
+"Euro area","EMU",92202,62365,32.4
+"Barbados","BRB",92202,62173,32.6
+"European Union","EUU",92202,62130,32.6
+"Brunei Darussalam","BRN",92202,62093,32.7
+"Croatia","HRV",92202,62050,32.7
+"Middle East, North Africa, Afghanistan & Pakistan","MEA",92202,62003,32.8
+"Slovenia","SVN",92202,61854,32.9
+"Vanuatu","VUT",92202,61766,33
+"Estonia","EST",92202,61676,33.1
+"IDA only","IDX",92202,61656,33.1
+"Latvia","LVA",92202,61714,33.1
+"Lithuania","LTU",92202,61679,33.1
+"Sub-Saharan Africa","SSF",92202,61714,33.1
+"Hong Kong SAR, China","HKG",92202,61632,33.2
+"Tonga","TON",92202,61624,33.2
+"Maldives","MDV",92202,61511,33.3
+"Comoros","COM",92202,61361,33.4
+"Slovak Republic","SVK",92202,61431,33.4
+"Azerbaijan","AZE",92202,61315,33.5
+"Qatar","QAT",92202,61332,33.5
+"Cuba","CUB",92202,61268,33.6
+"East Asia & Pacific (excluding high income)","EAP",92202,61162,33.7
+"OECD members","OED",92202,61094,33.7
+"Post-demographic dividend","PST",92202,61051,33.8
+"Bahamas, The","BHS",92202,60912,33.9
+"North America","NAC",92202,60830,34
+"Solomon Islands","SLB",92202,60822,34
+"Sub-Saharan Africa (excluding high income)","SSA",92202,60877,34
+"Europe & Central Asia","ECS",92202,60688,34.2
+"Kazakhstan","KAZ",92202,60646,34.2
+"Russian Federation","RUS",92202,60664,34.2
+"Seychelles","SYC",92202,60713,34.2
+"Trinidad and Tobago","TTO",92202,60657,34.2
+"Angola","AGO",92202,60533,34.3
+"Early-demographic dividend","EAR",92202,60607,34.3
+"Middle income","MIC",92202,60464,34.4
+"Guinea-Bissau","GNB",92202,60402,34.5
+"Kyrgyz Republic","KGZ",92202,60300,34.6
+"Low & middle income","LMY",92202,60255,34.6
+"Iraq","IRQ",92202,60177,34.7
+"World","WLD",92202,60208,34.7
+"Czechia","CZE",92202,60091,34.8
+"Ukraine","UKR",92202,59979,34.9
+"Bhutan","BTN",92202,59903,35
+"Cabo Verde","CPV",92202,59886,35
+"Myanmar","MMR",92202,59931,35
+"North Macedonia","MKD",92202,59840,35.1
+"Armenia","ARM",92202,59790,35.2
+"Belarus","BLR",92202,59775,35.2
+"Latin America & the Caribbean (IDA & IBRD countries)","TLA",92202,59720,35.2
+"Upper middle income","",92202,59754,35.2
+"Central African Republic","CAF",92202,59650,35.3
+"High income","",92202,59695,35.3
+"South Asia (IDA & IBRD)","TSA",92202,59630,35.3
+"Bahrain","BHR",92202,59531,35.4
+"Lebanon","LBN",92202,59574,35.4
+"Georgia","GEO",92202,59414,35.6
+"Guinea","GIN",92202,59380,35.6
+"Syrian Arab Republic","SYR",92202,59353,35.6
+"Namibia","NAM",92202,59283,35.7
+"Lao PDR","LAO",92202,59239,35.8
+"Moldova","MDA",92202,59073,35.9
+"Haiti","HTI",92202,59031,36
+"Viet Nam","VNM",92202,58960,36.1
+"Mozambique","MOZ",92202,58606,36.4
+"Kuwait","KWT",92202,58424,36.6
+"Latin America & Caribbean","LCN",92202,58454,36.6
+"Luxembourg","LUX",92202,58413,36.6
+"Oman","OMN",92202,58391,36.7
+"Guyana","GUY",92202,58268,36.8
+"Nigeria","NGA",92202,58307,36.8
+"Saudi Arabia","SAU",92202,58305,36.8
+"Chad","TCD",92202,58133,37
+"Cambodia","KHM",92202,57966,37.1
+"Malawi","MWI",92202,57881,37.2
+"Sudan","SDN",92202,57817,37.3
+"Japan","JPN",92202,57700,37.4
+"Eswatini","SWZ",92202,57649,37.5
+"Belgium","BEL",92202,57459,37.7
+"Congo, Dem. Rep.","COD",92202,57424,37.7
+"Latin America & Caribbean (excluding high income)","LAC",92202,57472,37.7
+"Papua New Guinea","PNG",92202,57414,37.7
+"Poland","POL",92202,57331,37.8
+"Albania","ALB",92202,57282,37.9
+"Burundi","BDI",92202,57145,38
+"Lower middle income","",92202,57182,38
+"Fiji","FJI",92202,57041,38.1
+"Venezuela, RB","VEN",92202,56943,38.2
+"Mongolia","MNG",92202,56880,38.3
+"Gambia, The","GMB",92202,56743,38.5
+"Ethiopia","ETH",92202,56596,38.6
+"South Asia","SAS",92202,56504,38.7
+"Sierra Leone","SLE",92202,56395,38.8
+"Belize","BLZ",92202,56254,39
+"Gabon","GAB",92202,56266,39
+"New Zealand","NZL",92202,56277,39
+"Jamaica","JAM",92202,56124,39.1
+"Zimbabwe","ZWE",92202,56109,39.1
+"China","CHN",92202,55940,39.3
+"Iceland","ISL",92202,55982,39.3
+"Ireland","IRL",92202,55855,39.4
+"Malta","MLT",92202,55802,39.5
+"Romania","ROU",92202,55763,39.5
+"Hungary","HUN",92202,55561,39.7
+"Zambia","ZMB",92202,55472,39.8
+"Mauritania","MRT",92202,55446,39.9
+"Bulgaria","BGR",92202,55253,40.1
+"Austria","AUT",92202,54608,40.8
+"Cote d'Ivoire","CIV",92202,54566,40.8
+"Cyprus","CYP",92202,54377,41
+"Germany","DEU",92202,54409,41
+"Australia","AUS",92202,54226,41.2
+"Nepal","NPL",92202,54179,41.2
+"Lesotho","LSO",92202,54012,41.4
+"Rwanda","RWA",92202,54021,41.4
+"Switzerland","CHE",92202,53920,41.5
+"Algeria","DZA",92202,53819,41.6
+"Tanzania","TZA",92202,53732,41.7
+"Nicaragua","NIC",92202,53548,41.9
+"Uganda","UGA",92202,53598,41.9
+"Congo, Rep.","COG",92202,53428,42.1
+"Portugal","PRT",92202,53417,42.1
+"Greece","GRC",92202,53298,42.2
+"Jordan","JOR",92202,53276,42.2
+"Panama","PAN",92202,53189,42.3
+"Niger","NER",92202,53091,42.4
+"Iran, Islamic Rep.","IRN",92202,52987,42.5
+"Benin","BEN",92202,52899,42.6
+"Botswana","BWA",92202,52894,42.6
+"Finland","FIN",92202,52940,42.6
+"Mali","MLI",92202,52897,42.6
+"Singapore","SGP",92202,52934,42.6
+"Israel","ISR",92202,52610,42.9
+"Spain","ESP",92202,52568,43
+"Burkina Faso","BFA",92202,52506,43.1
+"Italy","ITA",92202,52424,43.1
+"United States","USA",92202,52347,43.2
+"Netherlands","NLD",92202,52276,43.3
+"Canada","CAN",92202,52217,43.4
+"Denmark","DNK",92202,52177,43.4
+"Norway","NOR",92202,52129,43.5
+"Togo","TGO",92202,52020,43.6
+"United Kingdom","GBR",92202,52008,43.6
+"Ghana","GHA",92202,51759,43.9
+"France","FRA",92202,51530,44.1
+"Madagascar","MDG",92202,51574,44.1
+"Sweden","SWE",92202,51446,44.2
+"Uruguay","URY",92202,51305,44.4
+"Cameroon","CMR",92202,50953,44.7
+"Malaysia","MYS",92202,50958,44.7
+"Kenya","KEN",92202,50856,44.8
+"Bangladesh","BGD",92202,50823,44.9
+"Senegal","SEN",92202,50607,45.1
+"Mauritius","MUS",92202,50297,45.4
+"Sri Lanka","LKA",92202,50208,45.5
+"Chile","CHL",92202,49772,46
+"El Salvador","SLV",92202,49561,46.2
+"Korea, Rep.","KOR",92202,49627,46.2
+"Paraguay","PRY",92202,49643,46.2
+"South Africa","ZAF",92202,49626,46.2
+"Bolivia","BOL",92202,49363,46.5
+"Guatemala","GTM",92202,49324,46.5
+"Pakistan","PAK",92202,49323,46.5
+"Honduras","HND",92202,49205,46.6
+"Costa Rica","CRI",92202,49127,46.7
+"Philippines","PHL",92202,49026,46.8
+"Tunisia","TUN",92202,49076,46.8
+"Turkiye","TUR",92202,49081,46.8
+"Argentina","ARG",92202,48742,47.1
+"Morocco","MAR",92202,48815,47.1
+"Thailand","THA",92202,48551,47.3
+"Egypt, Arab Rep.","EGY",92202,48397,47.5
+"Brazil","BRA",92202,48290,47.6
+"Dominican Republic","DOM",92202,48289,47.6
+"Ecuador","ECU",92202,48192,47.7
+"Indonesia","IDN",92202,48112,47.8
+"India","IND",92202,47905,48
+"Colombia","COL",92202,46769,49.3
+"Mexico","MEX",92202,46548,49.5
+"Peru","PER",92202,46305,49.8
