@@ -1,0 +1,203 @@
+"country","iso3c","total_obs","missing_obs","completeness_rate"
+"Anguilla","",6877,6869,0.1
+"Curaçao","CUW",6877,6871,0.1
+"Montserrat","",6877,6870,0.1
+"Sint Maarten (Dutch part)","SXM",6877,6871,0.1
+"Taiwan","",6877,6869,0.1
+"Puerto Rico","PRI",6877,6865,0.2
+"Kiribati","KIR",6877,6855,0.3
+"South Sudan","SSD",6877,6853,0.3
+"Syrian Arab Republic","SYR",6877,6855,0.3
+"Turks and Caicos Islands","TCA",6877,6853,0.3
+"Bermuda","BMU",6877,6850,0.4
+"Cayman Islands","CYM",6877,6850,0.4
+"Libya","LBY",6877,6847,0.4
+"Nauru","NRU",6877,6849,0.4
+"Samoa","WSM",6877,6847,0.4
+"Palau","PLW",6877,6845,0.5
+"San Marino","SMR",6877,6845,0.5
+"Macao SAR, China","MAC",6877,6836,0.6
+"North Macedonia","MKD",6877,6839,0.6
+"Turkmenistan","TKM",6877,6835,0.6
+"Tuvalu","TUV",6877,6836,0.6
+"Barbados","BRB",6877,6831,0.7
+"Belize","BLZ",6877,6831,0.7
+"Eritrea","ERI",6877,6831,0.7
+"Japan","JPN",6877,6829,0.7
+"Marshall Islands","MHL",6877,6831,0.7
+"Tonga","TON",6877,6831,0.7
+"Vanuatu","VUT",6877,6831,0.7
+"Yemen","",6877,6831,0.7
+"Dominica","DMA",6877,6819,0.8
+"Korea","KOR",6877,6825,0.8
+"New Zealand","NZL",6877,6821,0.8
+"The Bahamas","BHS",6877,6825,0.8
+"Belarus","BLR",6877,6814,0.9
+"Hong Kong SAR, China","HKG",6877,6818,0.9
+"Iraq","IRQ",6877,6812,0.9
+"Israel","ISR",6877,6813,0.9
+"Kyrgyz Republic","KGZ",6877,6813,0.9
+"Lao PDR","LAO",6877,6813,0.9
+"Antigua and Barbuda","ATG",6877,6810,1
+"Aruba","ABW",6877,6807,1
+"Bahrain","BHR",6877,6807,1
+"Brunei","BRN",6877,6810,1
+"Fiji","FJI",6877,6810,1
+"Grenada","GRD",6877,6807,1
+"Guyana","GUY",6877,6807,1
+"Kuwait","KWT",6877,6807,1
+"Lebanon","LBN",6877,6808,1
+"Malaysia","MYS",6877,6807,1
+"Netherlands","NLD",6877,6810,1
+"Oman","OMN",6877,6810,1
+"Qatar","QAT",6877,6807,1
+"Singapore","SGP",6877,6810,1
+"St. Kitts and Nevis","KNA",6877,6807,1
+"St. Lucia","LCA",6877,6807,1
+"St. Vincent and the Grenadines","VCT",6877,6807,1
+"Sudan","SDN",6877,6807,1
+"United Arab Emirates","ARE",6877,6807,1
+"Algeria","DZA",6877,6804,1.1
+"Côte d'Ivoire","CIV",6877,6804,1.1
+"Equatorial Guinea","GNQ",6877,6804,1.1
+"Suriname","SUR",6877,6804,1.1
+"Sweden","SWE",6877,6799,1.1
+"Canada","CAN",6877,6792,1.2
+"Saudi Arabia","SAU",6877,6795,1.2
+"Germany","DEU",6877,6788,1.3
+"Uzbekistan","UZB",6877,6789,1.3
+"Papua New Guinea","PNG",6877,6780,1.4
+"Trinidad and Tobago","TTO",6877,6778,1.4
+"Iran","IRN",6877,6776,1.5
+"Seychelles","SYC",6877,6774,1.5
+"Burundi","BDI",6877,6770,1.6
+"Central African Republic","CAF",6877,6758,1.7
+"Micronesia","FSM",6877,6753,1.8
+"Guinea-Bissau","GNB",6877,6743,1.9
+"Togo","TGO",6877,6737,2
+"Gabon","GAB",6877,6730,2.1
+"Guinea","GIN",6877,6728,2.2
+"Myanmar","MMR",6877,6728,2.2
+"Congo","COG",6877,6721,2.3
+"Haiti","HTI",6877,6722,2.3
+"Senegal","SEN",6877,6716,2.3
+"Cabo Verde","CPV",6877,6714,2.4
+"Solomon Islands","SLB",6877,6706,2.5
+"Norway","NOR",6877,6688,2.7
+"Timor-Leste","",6877,6688,2.7
+"Kazakhstan","KAZ",6877,6686,2.8
+"Bhutan","BTN",6877,6673,3
+"Eswatini","SWZ",6877,6673,3
+"São Tomé and Principe","STP",6877,6670,3
+"Azerbaijan","AZE",6877,6667,3.1
+"Mali","MLI",6877,6660,3.2
+"China","CHN",6877,6649,3.3
+"Somalia","SOM",6877,6650,3.3
+"Afghanistan","AFG",6877,6642,3.4
+"Djibouti","DJI",6877,6641,3.4
+"Montenegro","MNE",6877,6622,3.7
+"Jamaica","JAM",6877,6616,3.8
+"Indonesia","IDN",6877,6610,3.9
+"Kenya","KEN",6877,6608,3.9
+"Mauritania","MRT",6877,6591,4.2
+"Burkina Faso","BFA",6877,6578,4.3
+"Comoros","COM",6877,6573,4.4
+"Liberia","LBR",6877,6570,4.5
+"Nigeria","NGA",6877,6552,4.7
+"Niger","NER",6877,6546,4.8
+"Tajikistan","TJK",6877,6546,4.8
+"Benin","BEN",6877,6532,5
+"Chad","TCD",6877,6535,5
+"Dem. Rep. Congo","",6877,6531,5
+"Nepal","NPL",6877,6526,5.1
+"Malawi","MWI",6877,6516,5.2
+"Mozambique","MOZ",6877,6516,5.2
+"Venezuela","VEN",6877,6498,5.5
+"Denmark","DNK",6877,6493,5.6
+"Slovenia","SVN",6877,6455,6.1
+"Rwanda","RWA",6877,6443,6.3
+"Thailand","THA",6877,6427,6.5
+"The Gambia","GMB",6877,6419,6.7
+"Tunisia","TUN",6877,6416,6.7
+"Bangladesh","BGD",6877,6412,6.8
+"Madagascar","MDG",6877,6409,6.8
+"Angola","AGO",6877,6396,7
+"Cameroon","CMR",6877,6396,7
+"Lesotho","LSO",6877,6394,7
+"Maldives","MDV",6877,6386,7.1
+"Zimbabwe","ZWE",6877,6366,7.4
+"Ghana","GHA",6877,6353,7.6
+"Botswana","BWA",6877,6339,7.8
+"Nicaragua","NIC",6877,6343,7.8
+"Sierra Leone","SLE",6877,6342,7.8
+"Egypt","EGY",6877,6326,8
+"United States","USA",6877,6297,8.4
+"Cambodia","KHM",6877,6248,9.1
+"Albania","ALB",6877,6242,9.2
+"Bosnia and Herzegovina","BIH",6877,6228,9.4
+"India","IND",6877,6213,9.7
+"Serbia","",6877,6145,10.6
+"Ukraine","UKR",6877,6142,10.7
+"Turkey","TUR",6877,6105,11.2
+"Kosovo","XKX",6877,6059,11.9
+"Mauritius","MUS",6877,6052,12
+"Morocco","MAR",6877,6045,12.1
+"Georgia","GEO",6877,6035,12.2
+"Uganda","UGA",6877,6040,12.2
+"Finland","FIN",6877,5998,12.8
+"Namibia","NAM",6877,5994,12.8
+"Croatia","HRV",6877,5896,14.3
+"Tanzania","TZA",6877,5871,14.6
+"Vietnam","VNM",6877,5862,14.8
+"Iceland","ISL",6877,5842,15.1
+"Malta","MLT",6877,5814,15.5
+"Mongolia","MNG",6877,5682,17.4
+"West Bank and Gaza","",6877,5623,18.2
+"Switzerland","CHE",6877,5601,18.6
+"Bulgaria","BGR",6877,5591,18.7
+"Greece","GRC",6877,5592,18.7
+"Guatemala","GTM",6877,5590,18.7
+"Latvia","LVA",6877,5590,18.7
+"Italy","ITA",6877,5585,18.8
+"Portugal","PRT",6877,5582,18.8
+"United Kingdom","GBR",6877,5569,19
+"Zambia","ZMB",6877,5511,19.9
+"Slovak Republic","SVK",6877,5497,20.1
+"Spain","ESP",6877,5493,20.1
+"Lithuania","LTU",6877,5422,21.2
+"Romania","ROU",6877,5416,21.2
+"Czech Republic","CZE",6877,5408,21.4
+"Cyprus","CYP",6877,5390,21.6
+"Ireland","IRL",6877,5386,21.7
+"Estonia","EST",6877,5312,22.8
+"Austria","AUT",6877,5305,22.9
+"France","FRA",6877,5289,23.1
+"Luxembourg","LUX",6877,5287,23.1
+"Armenia","ARM",6877,5280,23.2
+"Belgium","BEL",6877,5284,23.2
+"Hungary","HUN",6877,5258,23.5
+"Poland","POL",6877,5155,25
+"Chile","CHL",6877,5060,26.4
+"Mexico","MEX",6877,5012,27.1
+"Moldova","MDA",6877,4972,27.7
+"Pakistan","PAK",6877,4961,27.9
+"Panama","PAN",6877,4694,31.7
+"Jordan","JOR",6877,4553,33.8
+"Bolivia","BOL",6877,4457,35.2
+"Russia","RUS",6877,4304,37.4
+"South Africa","ZAF",6877,4215,38.7
+"Colombia","COL",6877,4022,41.5
+"Ethiopia","ETH",6877,3902,43.3
+"Paraguay","PRY",6877,3885,43.5
+"Argentina","ARG",6877,3761,45.3
+"Ecuador","ECU",6877,3762,45.3
+"Philippines","PHL",6877,3585,47.9
+"Brazil","BRA",6877,3563,48.2
+"Sri Lanka","LKA",6877,3521,48.8
+"Australia","AUS",6877,3454,49.8
+"El Salvador","SLV",6877,3331,51.6
+"Costa Rica","CRI",6877,3175,53.8
+"Dominican Republic","DOM",6877,3072,55.3
+"Uruguay","URY",6877,2711,60.6
+"Peru","PER",6877,2686,60.9
+"Honduras","HND",6877,2678,61.1
