@@ -1,0 +1,217 @@
+"country","iso3c","total_obs","missing_obs","completeness_rate"
+"French Polynesia","PYF",936,804,14.1
+"New Caledonia","NCL",936,786,16
+"Niue","",936,510,45.5
+"Jersey","",936,432,53.8
+"Netherlands Antilles","",936,432,53.8
+"South Sudan","SSD",936,426,54.5
+"Cook Islands","",936,390,58.3
+"Greenland","GRL",936,360,61.5
+"Monaco","MCO",936,312,66.7
+"San Marino","SMR",936,312,66.7
+"Anguilla","",936,222,76.3
+"Reunion","",936,222,76.3
+"Virgin Islands (U.S.)","VIR",936,222,76.3
+"American Samoa","ASM",936,186,80.1
+"Palau","PLW",936,186,80.1
+"Aruba","ABW",936,180,80.8
+"Guam","GUM",936,180,80.8
+"Nauru","NRU",936,168,82.1
+"Kosovo","XKX",936,138,85.3
+"Marshall Islands","MHL",936,132,85.9
+"Kiribati","KIR",936,114,87.8
+"Micronesia, Fed. Sts.","FSM",936,114,87.8
+"St. Kitts and Nevis","KNA",936,114,87.8
+"Tonga","TON",936,114,87.8
+"Tuvalu","TUV",936,114,87.8
+"Montenegro","MNE",936,108,88.5
+"St. Lucia","LCA",936,90,90.4
+"St. Vincent and the Grenadines","VCT",936,90,90.4
+"Timor-Leste","TLS",936,78,91.7
+"Solomon Islands","SLB",936,60,93.6
+"Vanuatu","VUT",936,60,93.6
+"Bermuda","BMU",936,42,95.5
+"Martinique","",936,42,95.5
+"Cabo Verde","CPV",936,18,98.1
+"Afghanistan","AFG",936,0,100
+"Albania","ALB",936,0,100
+"Algeria","DZA",936,0,100
+"Andorra","AND",936,0,100
+"Angola","AGO",936,0,100
+"Antigua and Barbuda","ATG",936,0,100
+"Argentina","ARG",936,0,100
+"Armenia","ARM",936,0,100
+"Australia","AUS",936,0,100
+"Austria","AUT",936,0,100
+"Azerbaijan","AZE",936,0,100
+"Bahamas, The","BHS",936,0,100
+"Bahrain","BHR",936,0,100
+"Bangladesh","BGD",936,0,100
+"Barbados","BRB",936,0,100
+"Belarus","BLR",936,0,100
+"Belgium","BEL",936,0,100
+"Belize","BLZ",936,0,100
+"Benin","BEN",936,0,100
+"Bhutan","BTN",936,0,100
+"Bolivia","BOL",936,0,100
+"Bosnia and Herzegovina","BIH",936,0,100
+"Botswana","BWA",936,0,100
+"Brazil","BRA",936,0,100
+"Brunei Darussalam","BRN",936,0,100
+"Bulgaria","BGR",936,0,100
+"Burkina Faso","BFA",936,0,100
+"Burundi","BDI",936,0,100
+"Cambodia","KHM",936,0,100
+"Cameroon","CMR",936,0,100
+"Canada","CAN",936,0,100
+"Cayman Islands","CYM",936,0,100
+"Central African Republic","CAF",936,0,100
+"Chad","TCD",936,0,100
+"Chile","CHL",936,0,100
+"China","CHN",936,0,100
+"Colombia","COL",936,0,100
+"Comoros","COM",936,0,100
+"Congo, Dem. Rep.","COD",936,0,100
+"Congo, Rep.","COG",936,0,100
+"Costa Rica","CRI",936,0,100
+"Cote d'Ivoire","CIV",936,0,100
+"Croatia","HRV",936,0,100
+"Cuba","CUB",936,0,100
+"Cyprus","CYP",936,0,100
+"Czechia","CZE",936,0,100
+"Denmark","DNK",936,0,100
+"Djibouti","DJI",936,0,100
+"Dominica","DMA",936,0,100
+"Dominican Republic","DOM",936,0,100
+"Ecuador","ECU",936,0,100
+"Egypt, Arab Rep.","EGY",936,0,100
+"El Salvador","SLV",936,0,100
+"Equatorial Guinea","GNQ",936,0,100
+"Eritrea","ERI",936,0,100
+"Estonia","EST",936,0,100
+"Eswatini","SWZ",936,0,100
+"Ethiopia","ETH",936,0,100
+"Fiji","FJI",936,0,100
+"Finland","FIN",936,0,100
+"France","FRA",936,0,100
+"French Guiana","",936,0,100
+"Gabon","GAB",936,0,100
+"Gambia, The","GMB",936,0,100
+"Georgia","GEO",936,0,100
+"Germany","DEU",936,0,100
+"Ghana","GHA",936,0,100
+"Greece","GRC",936,0,100
+"Grenada","GRD",936,0,100
+"Guatemala","GTM",936,0,100
+"Guinea","GIN",936,0,100
+"Guinea-Bissau","GNB",936,0,100
+"Guyana","GUY",936,0,100
+"Haiti","HTI",936,0,100
+"Honduras","HND",936,0,100
+"Hong Kong SAR, China","HKG",936,0,100
+"Hungary","HUN",936,0,100
+"Iceland","ISL",936,0,100
+"India","IND",936,0,100
+"Indonesia","IDN",936,0,100
+"Iran, Islamic Rep.","IRN",936,0,100
+"Iraq","IRQ",936,0,100
+"Ireland","IRL",936,0,100
+"Israel","ISR",936,0,100
+"Italy","ITA",936,0,100
+"Jamaica","JAM",936,0,100
+"Japan","JPN",936,0,100
+"Jordan","JOR",936,0,100
+"Kazakhstan","KAZ",936,0,100
+"Kenya","KEN",936,0,100
+"Korea, Dem. People's Rep.","PRK",936,0,100
+"Korea, Rep.","KOR",936,0,100
+"Kuwait","KWT",936,0,100
+"Kyrgyz Republic","KGZ",936,0,100
+"Lao PDR","LAO",936,0,100
+"Latvia","LVA",936,0,100
+"Lebanon","LBN",936,0,100
+"Lesotho","LSO",936,0,100
+"Liberia","LBR",936,0,100
+"Libya","LBY",936,0,100
+"Liechtenstein","LIE",936,0,100
+"Lithuania","LTU",936,0,100
+"Luxembourg","LUX",936,0,100
+"Macao SAR, China","MAC",936,0,100
+"Madagascar","MDG",936,0,100
+"Malawi","MWI",936,0,100
+"Malaysia","MYS",936,0,100
+"Maldives","MDV",936,0,100
+"Mali","MLI",936,0,100
+"Malta","MLT",936,0,100
+"Mauritania","MRT",936,0,100
+"Mauritius","MUS",936,0,100
+"Mexico","MEX",936,0,100
+"Moldova","MDA",936,0,100
+"Mongolia","MNG",936,0,100
+"Morocco","MAR",936,0,100
+"Mozambique","MOZ",936,0,100
+"Myanmar","MMR",936,0,100
+"Namibia","NAM",936,0,100
+"Nepal","NPL",936,0,100
+"Netherlands","NLD",936,0,100
+"New Zealand","NZL",936,0,100
+"Nicaragua","NIC",936,0,100
+"Niger","NER",936,0,100
+"Nigeria","NGA",936,0,100
+"North Macedonia","MKD",936,0,100
+"Norway","NOR",936,0,100
+"Oman","OMN",936,0,100
+"Pakistan","PAK",936,0,100
+"Panama","PAN",936,0,100
+"Papua New Guinea","PNG",936,0,100
+"Paraguay","PRY",936,0,100
+"Peru","PER",936,0,100
+"Philippines","PHL",936,0,100
+"Poland","POL",936,0,100
+"Portugal","PRT",936,0,100
+"Puerto Rico (US)","PRI",936,0,100
+"Qatar","QAT",936,0,100
+"Romania","ROU",936,0,100
+"Russian Federation","RUS",936,0,100
+"Rwanda","RWA",936,0,100
+"Samoa","WSM",936,0,100
+"Sao Tome and Principe","STP",936,0,100
+"Saudi Arabia","SAU",936,0,100
+"Senegal","SEN",936,0,100
+"Serbia","SRB",936,0,100
+"Seychelles","SYC",936,0,100
+"Sierra Leone","SLE",936,0,100
+"Singapore","SGP",936,0,100
+"Slovak Republic","SVK",936,0,100
+"Slovenia","SVN",936,0,100
+"Somalia, Fed. Rep.","SOM",936,0,100
+"South Africa","ZAF",936,0,100
+"Spain","ESP",936,0,100
+"Sri Lanka","LKA",936,0,100
+"Sudan","SDN",936,0,100
+"Suriname","SUR",936,0,100
+"Sweden","SWE",936,0,100
+"Switzerland","CHE",936,0,100
+"Syrian Arab Republic","SYR",936,0,100
+"Taiwan, China","",936,0,100
+"Tajikistan","TJK",936,0,100
+"Tanzania","TZA",936,0,100
+"Thailand","THA",936,0,100
+"Togo","TGO",936,0,100
+"Trinidad and Tobago","TTO",936,0,100
+"Tunisia","TUN",936,0,100
+"Turkiye","TUR",936,0,100
+"Turkmenistan","TKM",936,0,100
+"Uganda","UGA",936,0,100
+"Ukraine","UKR",936,0,100
+"United Arab Emirates","ARE",936,0,100
+"United Kingdom","GBR",936,0,100
+"United States","USA",936,0,100
+"Uruguay","URY",936,0,100
+"Uzbekistan","UZB",936,0,100
+"Venezuela, RB","VEN",936,0,100
+"Viet Nam","VNM",936,0,100
+"West Bank and Gaza","PSE",936,0,100
+"Yemen, Rep.","YEM",936,0,100
+"Zambia","ZMB",936,0,100
+"Zimbabwe","ZWE",936,0,100
